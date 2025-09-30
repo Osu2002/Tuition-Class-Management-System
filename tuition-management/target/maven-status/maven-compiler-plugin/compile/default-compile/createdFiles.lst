@@ -1,0 +1,10 @@
+com\example\tuition\service\TuitionClassService.class
+com\example\tuition\TuitionManagementApplication.class
+com\example\tuition\model\TuitionClass.class
+com\example\tuition\repository\UserRepository.class
+com\example\tuition\controller\TuitionClassController.class
+com\example\tuition\service\UserService.class
+com\example\tuition\config\SecurityConfig.class
+com\example\tuition\model\User.class
+com\example\tuition\repository\TuitionClassRepository.class
+com\example\tuition\controller\AuthController.class

@@ -1,0 +1,27 @@
+# Maven
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs
+/.idea/
+/*.iml
+*.sw?
+/.vscode/
+/*.class
+
+# Environment
+.env
+
+# Node (if you have a frontend in this repo)
+node_modules/
+
+# Misc
+*.bak
+*.tmp
