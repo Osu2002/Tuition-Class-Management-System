@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route, Navigate, Link, useLocation } from "react
 import Login from "./Login";
 import Register from "./Register";
 import Dashboard from "./Dashboard";
+import User from "./User";
 import { setApiAuth } from "./api";
 import "./App.css";
 
@@ -31,6 +32,7 @@ function Shell({ children, token, onLogout }) {
           {token && (
             <>
               {!onDashboard && <Link to="/dashboard" className="btn btn-ghost">Dashboard</Link>}
+              <Link to="/user" className="btn btn-ghost">For User</Link>
               <button className="btn btn-danger" onClick={onLogout}>Logout</button>
             </>
           )}
@@ -64,6 +66,14 @@ export default function App() {
             element={
               <ProtectedRoute token={token}>
                 <Dashboard token={token} setToken={setToken} />
+              </ProtectedRoute>
+            }
+          />
+          <Route
+            path="/user"
+            element={
+              <ProtectedRoute token={token}>
+                <User />
               </ProtectedRoute>
             }
           />

@@ -62,6 +62,7 @@ public class SecurityConfig {
             .authorizeHttpRequests(auth -> auth
                 .requestMatchers(HttpMethod.OPTIONS, "/**").permitAll()
                 .requestMatchers(HttpMethod.POST, "/api/auth/register").permitAll()
+                .requestMatchers(HttpMethod.GET, "/api/classes").permitAll() // <-- Make GET /api/classes public
                 .anyRequest().authenticated()
             )
             .httpBasic(Customizer.withDefaults());
