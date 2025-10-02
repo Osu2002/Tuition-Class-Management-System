@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 E:\my assignments\Tuition-Class-Management-System\tuition-management\src\main\java\com\example\tuition\service\TuitionClassService.java
 E:\my assignments\Tuition-Class-Management-System\tuition-management\src\main\java\com\example\tuition\config\CorsConfig.java
 E:\my assignments\Tuition-Class-Management-System\tuition-management\src\main\java\com\example\tuition\model\TuitionClass.java
@@ -10,16 +9,3 @@ E:\my assignments\Tuition-Class-Management-System\tuition-management\src\main\ja
 E:\my assignments\Tuition-Class-Management-System\tuition-management\src\main\java\com\example\tuition\controller\TuitionClassController.java
 E:\my assignments\Tuition-Class-Management-System\tuition-management\src\main\java\com\example\tuition\model\User.java
 E:\my assignments\Tuition-Class-Management-System\tuition-management\src\main\java\com\example\tuition\config\SecurityConfig.java
-=======
-C:\spring boot se\tuition-management\src\main\java\com\example\tuition\repository\UserRepository.java
-C:\spring boot se\tuition-management\src\main\java\com\example\tuition\service\TuitionClassService.java
-C:\spring boot se\tuition-management\src\main\java\com\example\tuition\TuitionManagementApplication.java
-C:\spring boot se\tuition-management\src\main\java\com\example\tuition\model\TuitionClass.java
-C:\spring boot se\tuition-management\src\main\java\com\example\tuition\controller\TuitionClassController.java
-C:\spring boot se\tuition-management\src\main\java\com\example\tuition\controller\AuthController.java
-C:\spring boot se\tuition-management\src\main\java\com\example\tuition\repository\TuitionClassRepository.java
-C:\spring boot se\tuition-management\src\main\java\com\example\tuition\config\CorsConfig.java
-C:\spring boot se\tuition-management\src\main\java\com\example\tuition\service\UserService.java
-C:\spring boot se\tuition-management\src\main\java\com\example\tuition\config\SecurityConfig.java
-C:\spring boot se\tuition-management\src\main\java\com\example\tuition\model\User.java
->>>>>>> 3609a00b7812b5b110580f30c5ac2705b12c1d59
