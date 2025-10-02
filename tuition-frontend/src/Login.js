@@ -26,7 +26,7 @@ export default function Login({ setToken }) {
 
     try {
       // hit a protected endpoint with HTTP Basic
-      await axios.get("http://localhost:8080/api/classes", {
+      await axios.get("http://localhost:8081/api/classes", {
         auth: { username: u, password: p },
       });
 
@@ -37,7 +37,11 @@ export default function Login({ setToken }) {
       setMsg("✅ Login successful! Redirecting…");
       setTimeout(() => navigate("/dashboard"), 700);
     } catch (err) {
-      setMsg(`❌ Login failed: ${err.response?.status || ""} ${err.response?.data || err.message}`);
+      setMsg(
+        `❌ Login failed: ${err.response?.status || ""} ${
+          err.response?.data || err.message
+        }`
+      );
     } finally {
       setLoading(false);
     }
@@ -81,14 +85,25 @@ export default function Login({ setToken }) {
           </div>
         </label>
 
-        <button className="btn btn-primary w-full" type="submit" disabled={loading}>
+        <button
+          className="btn btn-primary w-full"
+          type="submit"
+          disabled={loading}
+        >
           {loading ? "Logging in…" : "Login"}
         </button>
 
-        {msg && <div className="alert" role="alert">{msg}</div>}
+        {msg && (
+          <div className="alert" role="alert">
+            {msg}
+          </div>
+        )}
 
         <div className="muted">
-          New here? <Link to="/register" className="link">Create an account</Link>
+          New here?{" "}
+          <Link to="/register" className="link">
+            Create an account
+          </Link>
         </div>
       </form>
     </div>

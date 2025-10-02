@@ -2,7 +2,7 @@
 import axios from "axios";
 
 export const api = axios.create({
-  baseURL: process.env.REACT_APP_API_BASE || "http://localhost:8080",
+  baseURL: process.env.REACT_APP_API_BASE || "http://localhost:8081",
 });
 
 export function setApiAuth(token) {
