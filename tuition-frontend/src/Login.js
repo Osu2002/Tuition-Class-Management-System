@@ -45,7 +45,7 @@ export default function Login({ setToken }) {
 
   return (
     <div className="auth-wrap">
-      <form onSubmit={handleLogin} className="card">
+      <form onSubmit={handleLogin} className="card2">
         <h2 className="card-title">Welcome back</h2>
         <p className="card-subtitle">Sign in to continue</p>
 

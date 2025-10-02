@@ -32,7 +32,7 @@ export default function Register() {
 
   return (
     <div className="auth-wrap">
-      <form onSubmit={handleRegister} className="card">
+      <form onSubmit={handleRegister} className="card2">
         <h2 className="card-title">Create your account</h2>
         <p className="card-subtitle">Start managing classes in minutes</p>
 
